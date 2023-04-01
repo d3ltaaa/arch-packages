@@ -1,5 +1,7 @@
 #!/bin/bash
 
+sudo pacman -S fuse2
+
 # set up the folders
 mkdir -p ~/Downloads
 mkdir -p ~/opt/Remnote
