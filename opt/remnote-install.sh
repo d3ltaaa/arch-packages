@@ -15,7 +15,6 @@ curl -L -o remnote.AppImage https://www.remnote.com/desktop/linux
 chmod +x remnote.AppImage
 
 # Move the AppImage to /opt
-sudo touch /opt/Remnote/remnote.AppImage
 sudo mv remnote.AppImage /opt/Remnote/remnote.AppImage
 
 # Download Remnote icon and move it to /usr/share/icons/hicolor/512x512/apps
