@@ -24,7 +24,6 @@ sudo wget -O /usr/share/icons/hicolor/512x512/apps/remnote.png https://raw.githu
 sudo tee /usr/share/applications/remnote.desktop > /dev/null <<EOF
 [Desktop Entry]
 Name=Remnote
-Comment=Note-taking and spaced repetition software
 Exec=/opt/Remnote/remnote.AppImage
 Icon=/usr/share/icons/hicolor/512x512/apps/remnote.png
 Terminal=false
